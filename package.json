@@ -1,0 +1,10 @@
+{
+  "name": "smthdiff-azurite",
+  "version": "0.1.0",
+  "dependencies": {
+    "gulp": "*",
+    "laravel-elixir": "*",
+    "foundation-apps": "*"
+  },
+  "private": true
+}

@@ -1,6 +1,11 @@
-.idea/
-*.iml
-.DS_Store
+/vendor
+/bower_components
+/node_modules
+.env
 composer.phar
 composer.lock
-vendor/
+.DS_Store
+/.idea
+*.iml
+.sass-cache
+config.codekit
