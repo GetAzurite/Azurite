@@ -1,6 +1,1 @@
-"use strict";
-
-window.onload(function () {
-    // TODO: implement JS
-});
-//# sourceMappingURL=app.js.map
+"use strict";function _interopRequireDefault(e){return e&&e.__esModule?e:{"default":e}}var _jquery=require("resources/assets/js/vendor/jquery.min"),_jquery2=_interopRequireDefault(_jquery);require("resources/assets/js/vendor/lodash.min"),require("resources/assets/js/vendor/foundation-apps.min"),function(e){}(_jquery2["default"]);

@@ -13,8 +13,11 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
     mix
-        .sass('app.scss')
-        .babel('app.js')
+        // .copy('node_modules/jquery/dist/jquery.min.js', 'resources/assets/js/vendor/jquery.min.js')
+        // .copy('node_modules/lodash/lodash.min.js', 'resources/assets/js/vendor/lodash.min.js')
+        // .copy('node_modules/foundation-apps/dist/js/foundation-apps.min.js', 'resources/assets/js/vendor/foundation-apps.min.js')
+        .sass('app.scss', 'public/css/app.css', { includePaths: ['node_modules/foundation-apps/scss'] })
+        .browserify('app.js')
         .copy('resources/assets/img', 'public/img')
         .copy('resources/assets/fonts', 'public/fonts');
 });

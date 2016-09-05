@@ -2,9 +2,11 @@
   "name": "smthdiff-azurite",
   "version": "0.1.0",
   "dependencies": {
-    "gulp": "*",
-    "laravel-elixir": "*",
-    "foundation-apps": "*"
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^5.0.0",
+    "jquery": "^2.2.3",
+    "lodash": "^4.8.2",
+    "foundation-apps": "^1.2.0"
   },
   "private": true
 }
