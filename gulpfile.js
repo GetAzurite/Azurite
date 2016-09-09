@@ -16,8 +16,8 @@ elixir(function(mix) {
         // .copy('node_modules/jquery/dist/jquery.min.js', 'resources/assets/js/vendor/jquery.min.js')
         // .copy('node_modules/lodash/lodash.min.js', 'resources/assets/js/vendor/lodash.min.js')
         // .copy('node_modules/foundation-apps/dist/js/foundation-apps.min.js', 'resources/assets/js/vendor/foundation-apps.min.js')
-        .sass('app.scss', 'public/css/app.css', { includePaths: ['node_modules/foundation-apps/scss'] })
-        .browserify('app.js')
-        .copy('resources/assets/img', 'public/img')
-        .copy('resources/assets/fonts', 'public/fonts');
+        .sass('app.scss', 'src/Public/azurite/css/app.css', null, { includePaths: ['./node_modules/foundation-apps/scss'] })
+        .webpack('app.js', 'src/Public/azurite/js/app.js')
+        .copy('resources/assets/img', 'src/Public/azurite/img')
+        .copy('resources/assets/fonts', 'src/Public/azurite/fonts');
 });
